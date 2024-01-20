@@ -1,3 +1,13 @@
+# Importante
+hxvlc é uma biblioteca para haxe desenvolvida por M.A.Jigsaw.
+Esta versão serve apenas para compartilhar com outros membros do time de desenvolvimento de um projeto que será lançado em breve, este repositório também servirá como base para que eventuais forks desse projeto possam acessar essa hxvlc modificada especificamente para este projeto.
+
+E não, não irei considerar fazer um pr ao repositório original por motivos de:
+
+As mudanças aqui realizadas SÃO ÚNICA E EXCLUSIVAMENTE para resolver problemas do projeto em si nas plataformas de lançamento planejadas para ele.
+
+é isso, have fun : D
+
 ![](https://github.com/MAJigsaw77/hxvlc/raw/main/logo.png)
 
 # hxvlc

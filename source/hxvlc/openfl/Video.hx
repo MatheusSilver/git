@@ -412,6 +412,13 @@ class Video extends Bitmap
 			LibVLC.media_player_pause(mediaPlayer);
 	}
 
+	public function seek(seekTotime:Float):Void
+	{
+		if (mediaPlayer != null)
+			LibVLC.media_player_set_position(mediaPlayer, seekTotime);
+
+	}
+
 	/**
 	 * Frees the memory that is used to store the Video object.
 	 */

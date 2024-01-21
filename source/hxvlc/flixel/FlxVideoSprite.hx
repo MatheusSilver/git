@@ -117,6 +117,12 @@ class FlxVideoSprite extends FlxSprite
 			bitmap.togglePaused();
 	}
 
+	public function seek(seekTotime:Float)
+	{
+		if (bitmap != null)
+			bitmap.seek(seekTotime);
+	}
+
 	// Overrides
 	public override function destroy():Void
 	{
@@ -154,6 +160,7 @@ class FlxVideoSprite extends FlxSprite
 		if (bitmap != null)
 			bitmap.resume();
 	}
+	
 
 	public override function update(elapsed:Float):Void
 	{
